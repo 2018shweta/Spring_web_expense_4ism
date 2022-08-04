@@ -10,7 +10,8 @@
 </head>
 <body>
 <jsp:include page="CustomerHeader.jsp"></jsp:include>
-	<table border="1">
+
+	<table border="5">
 		<tr>
 			<th>Category</th>
 			<th>Date</th>
@@ -24,18 +25,19 @@
 		</tr>
 		<c:forEach items="${expense}" var="e">
 			<tr>
-				<td>${e.category}</td>
+				<td>${e.categoryId}</td>
 				<td>${e.date}</td>
 				
 				<td>${e.typeOfPayment}</td>
 				<td>${e.expenseAmmount}</td>
 					<td>${e.time}</td>
 						<td>${e.description}</td>
-				<td><a href="deleteexpense?expenseid=${e.expenseId}">Delete</a></td>
+				<td><a href="deleteexpense?expenseid=${e.expenseId}">Delete</a>|<a href="updateexpense?expenseid=${e.expenseId}">Update</a></td>
 			</tr>
 		</c:forEach>
 
 	</table>
 
+</form>
 </body>
 </html>

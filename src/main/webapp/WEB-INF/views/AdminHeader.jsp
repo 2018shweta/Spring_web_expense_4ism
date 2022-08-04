@@ -27,7 +27,7 @@
 			<li class="nav-item active"><a class="nav-link"
 				href="ListTaskController">TASKLIST</a></li>
 			<li class="nav-item active"><a class="nav-link"
-				href="AddTask.jsp">Add task <span class="sr-only">(current)</span>
+				href="addcategory">Add Category <span class="sr-only">(current)</span>
 			</a></li>
 			<li class="nav-item active"><a class="nav-link"
 				href="setsecquestion">SetSecurityQuetion <span class="sr-only">(current)</span>

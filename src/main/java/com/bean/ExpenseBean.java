@@ -5,7 +5,28 @@ public class ExpenseBean {
 	
 	Integer expenseId;
 	Integer userId;
-	String category;
+	Integer categoryId;
+	public Integer getCategoryId() {
+		return categoryId;
+	}
+	public void setCategoryId(Integer categoryId) {
+		this.categoryId = categoryId;
+	}
+	Integer subCategoryId;
+	public Integer getSubCategoryId() {
+		return subCategoryId;
+	}
+	public void setSubCategoryId(Integer subCategoryId) {
+		this.subCategoryId = subCategoryId;
+	}
+	Integer acId;
+	public Integer getAcId() {
+		return acId;
+	}
+	public void setAcId(Integer acId) {
+		this.acId = acId;
+	}
+	String categoryName;
 	String date;
 	String time;
 	String description;
@@ -23,11 +44,13 @@ public class ExpenseBean {
 	public void setUserId(Integer userId) {
 		this.userId = userId;
 	}
-	public String getCategory() {
-		return category;
+	
+	
+	public String getCategoryName() {
+		return categoryName;
 	}
-	public void setCategory(String category) {
-		this.category = category;
+	public void setCategoryName(String categoryName) {
+		this.categoryName = categoryName;
 	}
 	public String getDate() {
 		return date;

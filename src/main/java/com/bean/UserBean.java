@@ -1,21 +1,19 @@
 package com.bean;
 
-import javax.validation.constraints.NotBlank;
-
 public class UserBean {
 
 	Integer userId;
-	@NotBlank(message="Please Enter firstName")
+	//@NotBlank(message="Please Enter firstName")
 	String firstName;
-	@NotBlank(message="Please Enter lastName")
+	//@NotBlank(message="Please Enter lastName")
 	String lastName;
-	@NotBlank(message="Please Enter email")
+	//@NotBlank(message="Please Enter email")
 	String email;
-	@NotBlank(message="Please Enter password")
+	//@NotBlank(message="Please Enter password")
 	String password;
-	@NotBlank(message="Please Enter contact number")
+	//@NotBlank(message="Please Enter contact number")
 	String contactNumber;
-	@NotBlank(message="Please Enter gender")
+	//@NotBlank(message="Please Enter gender")
 	String gender;
 	String userType;
 	Boolean isActive;

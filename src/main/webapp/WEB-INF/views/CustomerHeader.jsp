@@ -21,6 +21,17 @@
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
+		<li class="nav-item dropdown header-profile"><a
+							class="nav-link" href="#" role="button" data-toggle="dropdown">
+								<img src="images\2\33e0a8de-c30c-4bbd-b357-7d3d53b6dfe5.jpg"
+								width="20" alt="">
+								<div class="header-info">
+									<span>Johndoe</span> 
+								</div>
+						</a></li>
+						<li class="nav-item active"><a class="nav-link"
+				href="newprofile">Add Profile <span class="sr-only">(current)</span>
+			</a></li>
 			<li class="nav-item active"><a class="nav-link"
 				href="Dashboard.jsp">CUSTOMER <span class="sr-only">(current)</span>
 			</a></li>
@@ -29,32 +40,22 @@
 			<li class="nav-item active"><a class="nav-link"
 				href="expense">AddExpense <span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item active"><a class="nav-link"
-				href="setsecquestion">SetSecurityQuetion <span class="sr-only">(current)</span>
-			</a></li>
+			
 			<li class="nav-item active"><a class="nav-link"
 				href="expenselist">AllExpenseList <span class="sr-only">(current)</span>
 			</a></li>
 			<li class="nav-item active"><a class="nav-link"
-				href="listprofileimages">AllImages present <span class="sr-only">(current)</span>
+				href="addcategory">AddCategory <span class="sr-only">(current)</span>
 			</a></li>
-			<li class="nav-item dropdown"><a
-				class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false"> Dropdown </a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Action</a> <a
-						class="dropdown-item" href="#">Another action</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Something else here</a>
-				</div></li>
+			<li class="nav-item active"><a class="nav-link"
+				href="addsubcategory">Add SubCategory <span class="sr-only">(current)</span>
+			</a></li>
+			<li class="nav-item active"><a class="nav-link"
+				href="accountDetails">AccountDetails <span class="sr-only">(current)</span>
+			</a></li>
 
 		</ul>
-		<form class="form-inline my-2 my-lg-0">
-			<input class="form-control mr-sm-2" type="search"
-				placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>
+		
 		<form class="form-inline my-2 my-lg-0">
 
 			<!--  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">My Carts</button>-->

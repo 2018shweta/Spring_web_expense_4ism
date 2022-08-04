@@ -20,7 +20,7 @@ public class UserDao {
 		
 		stmt.update("insert into users (firstname,lastname,email,password,contactnumber,gender,usertype,isactive) values (?,?,?,?,?,?,?,?)",userBean.getFirstName(),userBean.getLastName(),userBean.getEmail(),userBean.getPassword(),userBean.getContactNumber(),userBean.getGender(),userBean.getUserType(),userBean.getIsActive());
 		
-		
+		System.out.println(userBean.getFirstName());
 		
 	}
 	public  UserBean loginUser(LoginBean loginBean) {

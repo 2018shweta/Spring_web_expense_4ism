@@ -40,10 +40,10 @@ public class SignUpController {
 		
 		userBean.setIsActive(true);
 		userBean.setUserType("customer");
-		
+		System.out.println(userBean.getFirstName());
 		model.addAttribute("message","signup success");
 		userDao.addUsers(userBean);
-		
+		System.out.println(userBean.getFirstName());
 		return "Login";
 	}
 	}

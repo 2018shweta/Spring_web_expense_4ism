@@ -1,16 +1,44 @@
 package com.bean;
 
 public class AccountBean {
-
+	public Integer getTotal() {
+	return total;
+}
+public void setTotal(Integer total) {
+	this.total = total;
+}
+Integer total;
+Integer userId;
+String accountType;
+public Integer getAmmount() {
+	return ammount;
+}
+public void setAmmount(Integer ammount) {
+	this.ammount = ammount;
+}
+Integer ammount;
+Boolean isActive;
+	public Boolean getIsActive() {
+	return isActive;
+}
+public void setIsActive(Boolean isActive) {
+	this.isActive = isActive;
+}
 	Integer accountId;
-	
-	Integer userId;
-	//@Min(2)
-	//@NotNull(message="Please Enter ammout")
-	int ammount;
-	
-	
-	String accountType;
+	Integer upiId;
+	Integer cardId;
+	public Integer getUpiId() {
+		return upiId;
+	}
+	public void setUpiId(Integer upiId) {
+		this.upiId = upiId;
+	}
+	public Integer getCardId() {
+		return cardId;
+	}
+	public void setCardId(Integer cardId) {
+		this.cardId = cardId;
+	}
 	
 	public Integer getAccountId() {
 		return accountId;
@@ -24,12 +52,7 @@ public class AccountBean {
 	public void setUserId(Integer userId) {
 		this.userId = userId;
 	}
-	public int getAmmount() {
-		return ammount;
-	}
-	public void setAmmount(int ammount) {
-		this.ammount = ammount;
-	}
+	
 	public String getAccountType() {
 		return accountType;
 	}

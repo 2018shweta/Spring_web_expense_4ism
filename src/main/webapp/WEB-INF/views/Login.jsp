@@ -95,7 +95,7 @@ top: 13px;
                
 
                 <div class="d-flex justify-content-end pt-3">
-                  <button type="button" class="btn btn-light btn-lg">SignUp</button>
+                  <button type="button"  class="btn btn-light btn-lg"><a href="signup">SignUp</a></button>
                   <button type="submit" class="btn btn-warning btn-lg ms-2">Submit form</button>
                 </div>
 

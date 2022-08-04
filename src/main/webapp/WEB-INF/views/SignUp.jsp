@@ -50,7 +50,7 @@ top: 13px;
                 <div class="row">
                   <div class="col-md-6 mb-4">
                     <div class="form-outline">
-                      <input type="text" id="form3Example1m" class="form-control form-control-lg" path="firstName" />
+                      <input type="text" id="form3Example1m" class="form-control form-control-lg" name="firstName" />
                       <label class="form-label" for="form3Example1m">First name</label>
                     </div>
                   </div>
