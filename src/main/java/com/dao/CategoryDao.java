@@ -29,6 +29,8 @@ public class CategoryDao {
 		
 		return stmt.query("select * from category where userid=7 or userid=?",new BeanPropertyRowMapper<CategoryBean>(CategoryBean.class),new Object[] {userId});
 	}
+
+	
 	
 
 	

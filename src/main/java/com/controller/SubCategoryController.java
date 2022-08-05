@@ -51,6 +51,12 @@ public class SubCategoryController {
 			return "CustomerHome";
 		}
 	}
-	
+	@GetMapping("/categorychart")
+	public String categorychart(HttpSession session)
+	{
+		UserBean userBean=(UserBean) session.getAttribute("user");
+		int userId=userBean.getUserId();
+		
+	}
 	
 }

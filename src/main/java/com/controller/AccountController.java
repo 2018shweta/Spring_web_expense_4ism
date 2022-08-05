@@ -89,7 +89,10 @@ public class AccountController {
 		
 		List<AccountBean> ac= accountDao.sum(userId);
 		//System.out.println(ac.get(0).getAmmount());
-		 total=ac.get(0).getAmmount()-exp.get(0).getExpenseAmmount();
+		
+		
+		// total=ac.get(0).getAmmount()-exp.get(0).getExpenseAmmount();
+		total=ac.get(0).getAmmount();
 		model.addAttribute("ac",ac);
 		//System.out.println(total);
 		model.addAttribute("total",total);
